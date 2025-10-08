@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=yes">
+    <title>Easy Trading - Professional Trading Tools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header-container">
+            <!-- Brand Logo/Name -->
+            <div class="brand">
+                <h1 class="brand-name">Easy Trading</h1>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="nav">
+                <button class="nav-btn login-btn" id="loginBtn">ورود</button>
+                <button class="nav-btn signup-btn" id="signupBtn">ثبت نام</button>
+
+                <!-- Hamburger Menu -->
+                <div class="hamburger-menu" id="hamburgerMenu">
+                    <div class="hamburger-icon" id="hamburgerIcon">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </div>
+
+                    <div class="menu-dropdown" id="menuDropdown">
+                        <a href="#" class="menu-item">ابزارها</a>
+                        <a href="#" class="menu-item">تعرفه‌ها</a>
+                        <a href="#" class="menu-item">قوانین</a>
+                        <a href="#" class="menu-item">ارتباط با ما</a>
+                    </div>
+                </div>
+
+                <!-- Theme Toggle -->
+                <div class="theme-toggle" id="themeToggle">
+                    <div class="toggle-icon">
+                        <span class="sun-icon">🌞</span>
+                        <span class="moon-icon">🌙</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-container">
+                <!-- Left Column - Text Content -->
+                <div class="hero-text">
+                    <h1 class="hero-title">بهترین جعبه ابزار برای بهترین تریدرها</h1>
+                    <p class="hero-subtitle">Professional tools to increase accuracy, speed, and develop your trading strategy</p>
+
+                    <div class="hero-buttons">
+                        <button class="hero-btn primary-btn">شروع کنید</button>
+                        <button class="hero-btn secondary-btn">بررسی ابزارها</button>
+                    </div>
+                </div>
+
+                <!-- Right Column - Visual Elements -->
+                <div class="hero-visuals">
+                    <div class="chart-container">
+                        <!-- Trading Chart -->
+                        <div class="trading-chart">
+                            <div class="chart-bars">
+                                <div class="bar" style="--height: 40%"></div>
+                                <div class="bar" style="--height: 70%"></div>
+                                <div class="bar" style="--height: 55%"></div>
+                                <div class="bar" style="--height: 85%"></div>
+                                <div class="bar" style="--height: 60%"></div>
+                                <div class="bar" style="--height: 90%"></div>
+                                <div class="bar" style="--height: 75%"></div>
+                                <div class="bar" style="--height: 95%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Panels -->
+                        <div class="floating-panel panel-1">
+                            <div class="panel-header"></div>
+                            <div class="panel-content">
+                                <div class="data-point"></div>
+                                <div class="data-point"></div>
+                                <div class="data-point"></div>
+                            </div>
+                        </div>
+
+                        <div class="floating-panel panel-2">
+                            <div class="panel-graph">
+                                <svg viewBox="0 0 100 40">
+                                    <polyline points="0,30 20,15 40,20 60,10 80,5 100,8" stroke="currentColor" stroke-width="2" fill="none"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- Animated Particles -->
+                        <div class="particles">
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="features-container">
+                <div class="features-header">
+                    <h2 class="features-title">ویژگی‌های برجسته</h2>
+                    <p class="features-subtitle">ابزارهای حرفه‌ای برای موفقیت در معاملات</p>
+                </div>
+
+                <div class="features-grid">
+                    <!-- Feature Card 1 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 3v18h18"/>
+                                <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">ابزارهای دقیق</h3>
+                        <p class="feature-description">ابزارهایی حرفه‌ای برای تحلیل دقیق بازار و بالا بردن دقت معاملات شما.</p>
+                    </div>
+
+                    <!-- Feature Card 2 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">تصمیم‌گیری سریع</h3>
+                        <p class="feature-description">با داده‌های به‌روز و تحلیل لحظه‌ای، سرعت تصمیم‌گیری خود را افزایش دهید.</p>
+                    </div>
+
+                    <!-- Feature Card 3 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5"/>
+                                <path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">استراتژی هوشمند</h3>
+                        <p class="feature-description">ابزارهایی برای توسعه و بهینه‌سازی استراتژی معاملاتی شما.</p>
+                    </div>
+
+                    <!-- Feature Card 4 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="7.5,4.21 12,6.81 16.5,4.21"/>
+                                <polyline points="7.5,19.79 7.5,14.6 3,12"/>
+                                <polyline points="21,12 16.5,14.6 16.5,19.79"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">امنیت بالا</h3>
+                        <p class="feature-description">حفاظت کامل از داده‌ها و اطلاعات معاملاتی شما با بالاترین استانداردهای امنیتی.</p>
+                    </div>
+
+                    <!-- Feature Card 5 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">پشتیبانی ۲۴/۷</h3>
+                        <p class="feature-description">تیم پشتیبانی متخصص، همیشه آماده کمک به شما برای بهترین تجربه معاملاتی.</p>
+                    </div>
+
+                    <!-- Feature Card 6 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">عملکرد سریع</h3>
+                        <p class="feature-description">پلتفرمی بهینه‌سازی شده برای اجرای سریع معاملات و دریافت لحظه‌ای اطلاعات بازار.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Showcase Section -->
+        <section class="tools-showcase" id="tools">
+            <div class="tools-container">
+                <div class="tools-header">
+                    <h2 class="tools-title">مجموعه ابزارهای معاملاتی</h2>
+                    <p class="tools-subtitle">مجموعه کاملی از ابزارهای حرفه‌ای برای موفقیت در معاملات</p>
+                </div>
+
+                <div class="tools-grid">
+                    <!-- Tool Card 1 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
+                                <line x1="12" y1="22.08" x2="12" y2="12"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">تجزیه و تحلیل پیشرفته</h3>
+                        <p class="tool-description">ابزارهای قدرتمند برای تحلیل تکنیکال، فاندامنتال و سنتیمنتال بازار با دقت بالا.</p>
+                        <button class="tool-btn">مشاهده جزئیات</button>
+                    </div>
+
+                    <!-- Tool Card 2 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">سیگنال‌های لحظه‌ای</h3>
+                        <p class="tool-description">دریافت سیگنال‌های معاملاتی لحظه‌ای بر اساس الگوریتم‌های پیشرفته و هوش مصنوعی.</p>
+                        <button class="tool-btn">شروع استفاده</button>
+                    </div>
+
+                    <!-- Tool Card 3 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 12c-1 0-3-1-3-3V6c0-1.5-1.5-3-3-3s-3 1.5-3 3v3c0 2-2 3-3 3"/>
+                                <path d="M9 12v9"/>
+                                <path d="M15 12v9"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">مدیریت ریسک هوشمند</h3>
+                        <p class="tool-description">سیستم‌های پیشرفته مدیریت ریسک برای حفاظت از سرمایه و بهینه‌سازی سودآوری.</p>
+                        <button class="tool-btn">شروع استفاده</button>
+                    </div>
+
+                    <!-- Tool Card 4 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 3v18h18"/>
+                                <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">گزارش‌گیری خودکار</h3>
+                        <p class="tool-description">گزارش‌های جامع و خودکار از عملکرد معاملات با تحلیل‌های دقیق و پیشنهادات اصلاحی.</p>
+                        <button class="tool-btn">مشاهده جزئیات</button>
+                    </div>
+
+                    <!-- Tool Card 5 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">آموزش و پشتیبانی</h3>
+                        <p class="tool-description">دسترسی به دوره‌های آموزشی جامع و پشتیبانی ۲۴ ساعته از تیم متخصصان ما.</p>
+                        <button class="tool-btn">شروع یادگیری</button>
+                    </div>
+
+                    <!-- Tool Card 6 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3 class="tool-title">پلتفرم یکپارچه</h3>
+                        <p class="tool-description">دسترسی به تمام ابزارها در یک پلتفرم یکپارچه با رابط کاربری ساده و کاربرپسند.</p>
+                        <button class="tool-btn">شروع استفاده</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Plans Section -->
+        <section class="pricing" id="pricing">
+            <div class="pricing-container">
+                <div class="pricing-header">
+                    <h2 class="pricing-title">تعرفه‌های اشتراک</h2>
+                    <p class="pricing-subtitle">انتخاب بهترین بسته متناسب با نیازهای معاملاتی شما</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Basic Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header-card">
+                            <h3 class="pricing-plan-name">پایه</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">رایگان</span>
+                            </div>
+                            <p class="pricing-period">برای همیشه</p>
+                        </div>
+
+                        <div class="pricing-features">
+                            <ul class="features-list">
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    دسترسی به ابزارهای تحلیل پایه
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    گزارش‌های ساده معاملاتی
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    پشتیبانی ایمیلی
+                                </li>
+                                <li class="feature-item disabled">
+                                    <svg class="feature-cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <line x1="18" y1="6" x2="6" y2="18"/>
+                                        <line x1="6" y1="6" x2="18" y2="18"/>
+                                    </svg>
+                                    سیگنال‌های لحظه‌ای
+                                </li>
+                                <li class="feature-item disabled">
+                                    <svg class="feature-cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <line x1="18" y1="6" x2="6" y2="18"/>
+                                        <line x1="6" y1="6" x2="18" y2="18"/>
+                                    </svg>
+                                    مدیریت ریسک پیشرفته
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="pricing-btn">شروع رایگان</button>
+                    </div>
+
+                    <!-- Professional Plan (Most Popular) -->
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">محبوب‌ترین</div>
+                        <div class="pricing-header-card">
+                            <h3 class="pricing-plan-name">حرفه‌ای</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">۲۹۹,۰۰۰</span>
+                                <span class="price-currency">تومان</span>
+                            </div>
+                            <p class="pricing-period">ماهانه</p>
+                        </div>
+
+                        <div class="pricing-features">
+                            <ul class="features-list">
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    تمام ابزارهای تحلیل پیشرفته
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    سیگنال‌های لحظه‌ای نامحدود
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    مدیریت ریسک هوشمند
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    گزارش‌های پیشرفته
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    پشتیبانی اولویت‌دار
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="pricing-btn popular-btn">خرید اشتراک</button>
+                    </div>
+
+                    <!-- Enterprise Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header-card">
+                            <h3 class="pricing-plan-name">سازمانی</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">تماس بگیرید</span>
+                            </div>
+                            <p class="pricing-period">راه‌حل سفارشی</p>
+                        </div>
+
+                        <div class="pricing-features">
+                            <ul class="features-list">
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    تمام امکانات حرفه‌ای
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    API اختصاصی
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    آموزش‌های اختصاصی
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    مدیر اختصاصی حساب
+                                </li>
+                                <li class="feature-item">
+                                    <svg class="feature-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    راه‌حل‌های سفارشی
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="pricing-btn">تماس با فروش</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rules & Guides Section -->
+        <section class="rules-guides" id="rules">
+            <div class="rules-container">
+                <!-- Left Column - Text Content -->
+                <div class="rules-text">
+                    <h2 class="rules-title">قوانین و راهنمایی‌ها</h2>
+                    <p class="rules-subtitle">
+                        برای استفاده بهینه از پلتفرم معاملاتی Easy Trading، لطفاً قوانین و شرایط استفاده را مطالعه فرمایید.
+                        راهنمایی‌های ما به شما کمک می‌کند تا بهترین تجربه معاملاتی را داشته باشید.
+                    </p>
+
+                    <div class="rules-benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 12l2 2 4-4"/>
+                                    <path d="M21 12c-1 0-3-1-3-3V6c0-1.5-1.5-3-3-3s-3 1.5-3 3v3c0 2-2 3-3 3"/>
+                                </svg>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>شروع سریع</h4>
+                                <p>راهنمایی گام به گام برای شروع معاملات در کمتر از ۵ دقیقه</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                    <polyline points="14,2 14,8 20,8"/>
+                                    <line x1="16" y1="13" x2="8" y2="13"/>
+                                    <line x1="16" y1="17" x2="8" y2="17"/>
+                                    <polyline points="10,9 9,9 8,9"/>
+                                </svg>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>مطالعه قوانین</h4>
+                                <p>شرایط و قوانین کامل استفاده از خدمات و ابزارهای معاملاتی</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>پشتیبانی اختصاصی</h4>
+                                <p>دسترسی به تیم پشتیبانی متخصص برای پاسخگویی به سوالات شما</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rules-buttons">
+                        <button class="rules-btn primary">مشاهده قوانین کامل</button>
+                        <button class="rules-btn secondary">راهنمای شروع سریع</button>
+                    </div>
+                </div>
+
+                <!-- Right Column - Visual Elements -->
+                <div class="rules-visual">
+                    <div class="rules-illustration">
+                        <!-- Main Guide Book -->
+                        <div class="guide-book">
+                            <div class="book-cover">
+                                <div class="book-title">راهنما</div>
+                                <div class="book-subtitle">Easy Trading</div>
+                                <div class="book-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14,2 14,8 20,8"/>
+                                        <line x1="16" y1="13" x2="8" y2="13"/>
+                                        <line x1="16" y1="17" x2="8" y2="17"/>
+                                        <polyline points="10,9 9,9 8,9"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="book-pages"></div>
+                        </div>
+
+                        <!-- Floating Elements -->
+                        <div class="floating-element element-1">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"/>
+                                <path d="M21 12c-1 0-3-1-3-3V6c0-1.5-1.5-3-3-3s-3 1.5-3 3v3c0 2-2 3-3 3"/>
+                            </svg>
+                        </div>
+
+                        <div class="floating-element element-2">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                        </div>
+
+                        <div class="floating-element element-3">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+
+                        <!-- Animated Particles -->
+                        <div class="rules-particles">
+                            <div class="rules-particle"></div>
+                            <div class="rules-particle"></div>
+                            <div class="rules-particle"></div>
+                            <div class="rules-particle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <!-- Top Section -->
+            <div class="footer-top">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <h2 class="footer-brand-name">Easy Trading</h2>
+                    <p class="footer-brand-tagline">Professional tools to increase accuracy, speed, and develop your trading strategy</p>
+                    <div class="footer-brand-divider"></div>
+                </div>
+
+                <!-- Links Columns -->
+                <div class="footer-links">
+                    <!-- Quick Links -->
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">لینک‌های سریع</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="#tools" class="footer-link">ابزارها</a></li>
+                            <li><a href="#pricing" class="footer-link">تعرفه‌ها</a></li>
+                            <li><a href="#rules" class="footer-link">قوانین</a></li>
+                            <li><a href="#contact" class="footer-link">ارتباط با ما</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">ابزارها</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="#" class="footer-link">تجزیه و تحلیل پیشرفته</a></li>
+                            <li><a href="#" class="footer-link">سیگنال‌های لحظه‌ای</a></li>
+                            <li><a href="#" class="footer-link">مدیریت ریسک هوشمند</a></li>
+                            <li><a href="#" class="footer-link">گزارش‌گیری خودکار</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Support -->
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">پشتیبانی</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="#" class="footer-link">مرکز راهنمایی</a></li>
+                            <li><a href="#" class="footer-link">سوالات متداول</a></li>
+                            <li><a href="#" class="footer-link">تماس با پشتیبانی</a></li>
+                            <li><a href="#" class="footer-link">آموزش‌های ویدئویی</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">ارتباط با ما</h3>
+                        <div class="footer-contact">
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span>info@easytrading.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                <span>+98 21 1234 5678</span>
+                            </div>
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span>تهران، ایران</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="footer-bottom">
+                <!-- Social Media -->
+                <div class="footer-social">
+                    <h3 class="footer-social-title">ما را دنبال کنید</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link instagram" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link linkedin" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link twitter" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link telegram" aria-label="Telegram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21.384,17.752l-2.319-0.578c-0.28-0.07-0.577,0.067-0.72,0.326c-0.143,0.259-0.188,0.573-0.122,0.869l0.468,2.09c0.04,0.181,0.129,0.346,0.257,0.478c0.128,0.132,0.29,0.217,0.464,0.245l2.319,0.578c0.28,0.07,0.577-0.067,0.72-0.326c0.143-0.259,0.188-0.573,0.122-0.869l-0.468-2.09c-0.04-0.181-0.129-0.346-0.257-0.478C21.72,17.865,21.558,17.78,21.384,17.752z"/>
+                                <path d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M16.64,8.41l-2.13,9.84c-0.09,0.42-0.55,0.66-0.97,0.57l-2.69-0.67c-0.42-0.1-0.66-0.55-0.57-0.97l0.67-2.69c0.09-0.42,0.55-0.66,0.97-0.57l1.91,0.48l-1.91-4.41l5.71,1.42C17.55,11.9,17.19,8.41,16.64,8.41z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Easy Trading. All Rights Reserved.</p>
+                    <div class="footer-legal">
+                        <a href="#" class="footer-legal-link">Privacy Policy</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-legal-link">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

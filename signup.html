@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=yes">
+    <title>ثبت‌نام | Easy Trading</title>
+    <meta name="description" content="اکانت خود را در Easy Trading ایجاد کنید و به ابزارها و پلن‌های حرفه‌ای ترید دسترسی پیدا کنید.">
+    <meta name="keywords" content="ثبت‌نام, عضویت, Easy Trading, تریدینگ, حساب کاربری">
+    <meta name="author" content="Easy Trading">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://easytrading.com/signup">
+    <meta property="og:title" content="ثبت‌نام در Easy Trading">
+    <meta property="og:description" content="به جامعه تریدرهای حرفه‌ای Easy Trading بپیوندید.">
+    <meta property="og:image" content="/assets/images/signup-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://easytrading.com/signup">
+    <meta property="twitter:title" content="ثبت‌نام در Easy Trading">
+    <meta property="twitter:description" content="به جامعه تریدرهای حرفه‌ای Easy Trading بپیوندید.">
+    <meta property="twitter:image" content="/assets/images/signup-twitter.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=IranYekan:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section (Consistent with all pages) -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <!-- Navigation (Right side elements) -->
+            <nav class="nav">
+                <!-- Theme Toggle -->
+                <div class="theme-toggle" id="themeToggle">
+                    <div class="toggle-icon">
+                        <span class="sun-icon">🌞</span>
+                        <span class="moon-icon">🌙</span>
+                    </div>
+                </div>
+
+                <!-- Hamburger Menu -->
+                <div class="hamburger-menu" id="hamburgerMenu">
+                    <div class="hamburger-icon" id="hamburgerIcon">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </div>
+
+                    <div class="menu-dropdown" id="menuDropdown">
+                        <a href="index.html#tools" class="menu-item">ابزارها</a>
+                        <a href="index.html#pricing" class="menu-item">تعرفه‌ها</a>
+                        <a href="index.html#rules" class="menu-item">قوانین</a>
+                        <a href="contact.html" class="menu-item">ارتباط با ما</a>
+                        <a href="signup.html" class="menu-item active">ثبت‌نام</a>
+                    </div>
+                </div>
+
+                <a href="index.html" class="nav-btn secondary-nav-btn">صفحه اصلی</a>
+            </nav>
+
+            <!-- Brand Logo/Name (Left side) -->
+            <div class="brand">
+                <a href="index.html" class="brand-link">
+                    <h1 class="brand-name">Easy Trading</h1>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Signup Hero Section -->
+        <section class="signup-hero">
+            <div class="signup-hero-container">
+                <div class="signup-hero-content">
+                    <h1 class="signup-hero-title">ثبت‌نام در Easy Trading</h1>
+                    <p class="signup-hero-subtitle">اکانت خود را بسازید و از ابزارهای حرفه‌ای ترید استفاده کنید.</p>
+
+                    <div class="signup-hero-visual">
+                        <div class="hero-signup-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Signup Section -->
+        <section class="signup-section">
+            <div class="signup-container">
+                <div class="signup-content">
+                    <!-- Signup Form -->
+                    <div class="signup-form-card">
+                        <div class="signup-form-header">
+                            <h2 class="signup-form-title">ایجاد حساب کاربری</h2>
+                            <p class="signup-form-subtitle">همه فیلدهای دارای * الزامی هستند</p>
+                        </div>
+
+                        <form class="signup-form" id="signupForm">
+                            <!-- Full Name Field -->
+                            <div class="form-group">
+                                <label for="fullName" class="form-label">
+                                    <span class="label-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                            <circle cx="12" cy="7" r="4"/>
+                                        </svg>
+                                    </span>
+                                    نام و نام خانوادگی *
+                                </label>
+                                <input type="text" id="fullName" name="fullName" class="form-input"
+                                       placeholder="نام کامل خود را وارد کنید" required>
+                                <div class="form-feedback" id="fullNameFeedback"></div>
+                            </div>
+
+                            <!-- Username Field -->
+                            <div class="form-group">
+                                <label for="username" class="form-label">
+                                    <span class="label-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                            <circle cx="12" cy="7" r="4"/>
+                                        </svg>
+                                    </span>
+                                    نام کاربری *
+                                </label>
+                                <input type="text" id="username" name="username" class="form-input"
+                                       placeholder="فقط حروف انگلیسی و اعداد (مثال: trader123)" required>
+                                <div class="form-feedback" id="usernameFeedback"></div>
+                                <small class="form-hint">نام کاربری فقط می‌تواند شامل حروف انگلیسی، اعداد و زیرخط (_) باشد</small>
+                            </div>
+
+                            <!-- Phone Number Field -->
+                            <div class="form-group">
+                                <label for="phoneNumber" class="form-label">
+                                    <span class="label-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                        </svg>
+                                    </span>
+                                    شماره تماس *
+                                </label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" class="form-input"
+                                       placeholder="مثال: 09123456789" required>
+                                <div class="form-feedback" id="phoneNumberFeedback"></div>
+                            </div>
+
+                            <!-- Email Field -->
+                            <div class="form-group">
+                                <label for="email" class="form-label">
+                                    <span class="label-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                            <polyline points="22,6 12,13 2,6"/>
+                                        </svg>
+                                    </span>
+                                    ایمیل *
+                                </label>
+                                <input type="email" id="email" name="email" class="form-input"
+                                       placeholder="example@domain.com" required>
+                                <div class="form-feedback" id="emailFeedback"></div>
+                            </div>
+
+                            <!-- Password Field -->
+                            <div class="form-group">
+                                <label for="password" class="form-label">
+                                    <span class="label-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                                            <circle cx="12" cy="16" r="1"/>
+                                            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                                        </svg>
+                                    </span>
+                                    رمز عبور *
+                                </label>
+                                <div class="password-input-container">
+                                    <input type="password" id="password" name="password" class="form-input"
+                                           placeholder="حداقل ۸ کاراکتر" required>
+                                    <button type="button" class="password-toggle" id="passwordToggle">
+                                        <svg class="eye-icon eye-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                            <circle cx="12" cy="12" r="3"/>
+                                        </svg>
+                                        <svg class="eye-icon eye-closed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/>
+                                            <line x1="1" y1="1" x2="23" y2="23"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="form-feedback" id="passwordFeedback"></div>
+                                <div class="password-strength" id="passwordStrength">
+                                    <div class="strength-meter">
+                                        <div class="strength-fill" id="strengthFill"></div>
+                                    </div>
+                                    <span class="strength-text" id="strengthText">ضعیف</span>
+                                </div>
+                            </div>
+
+                            <!-- Confirm Password Field -->
+                            <div class="form-group">
+                                <label for="confirmPassword" class="form-label">
+                                    <span class="label-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                                            <circle cx="12" cy="16" r="1"/>
+                                            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                                        </svg>
+                                    </span>
+                                    تأیید رمز عبور *
+                                </label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" class="form-input"
+                                       placeholder="رمز عبور را دوباره وارد کنید" required>
+                                <div class="form-feedback" id="confirmPasswordFeedback"></div>
+                            </div>
+
+                            <!-- Country Field -->
+                            <div class="form-group">
+                                <label for="country" class="form-label">
+                                    <span class="label-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <line x1="2" y1="12" x2="22" y2="12"/>
+                                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                                        </svg>
+                                    </span>
+                                    کشور / منطقه *
+                                </label>
+                                <select id="country" name="country" class="form-input" required>
+                                    <option value="">انتخاب کشور</option>
+                                    <option value="iran">ایران</option>
+                                    <option value="uae">امارات متحده عربی</option>
+                                    <option value="turkey">ترکیه</option>
+                                    <option value="germany">آلمان</option>
+                                    <option value="uk">انگلستان</option>
+                                    <option value="usa">ایالات متحده آمریکا</option>
+                                    <option value="canada">کانادا</option>
+                                    <option value="australia">استرالیا</option>
+                                    <option value="other">سایر کشورها</option>
+                                </select>
+                                <div class="form-feedback" id="countryFeedback"></div>
+                            </div>
+
+                            <!-- Referral Code Field -->
+                            <div class="form-group">
+                                <label for="referralCode" class="form-label">
+                                    <span class="label-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+                                        </svg>
+                                    </span>
+                                    کد دعوت (اختیاری)
+                                </label>
+                                <input type="text" id="referralCode" name="referralCode" class="form-input"
+                                       placeholder="اگر کد دعوت دارید وارد کنید">
+                                <div class="form-feedback" id="referralCodeFeedback"></div>
+                                <small class="form-hint">اگر از طرف یکی از کاربران ما دعوت شده‌اید، کد را وارد کنید</small>
+                            </div>
+
+                            <!-- Terms Checkbox -->
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="termsAccepted" name="termsAccepted" required>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-text">
+                                        <a href="index.html#rules" class="terms-link">شرایط و قوانین</a> را می‌پذیرم *
+                                    </span>
+                                </label>
+                                <div class="form-feedback" id="termsAcceptedFeedback"></div>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="signup-submit-btn" id="submitBtn">
+                                <span class="btn-text">ثبت‌نام</span>
+                                <span class="btn-loading" id="btnLoading">
+                                    <div class="loading-spinner"></div>
+                                    در حال ثبت‌نام...
+                                </span>
+                                <span class="btn-success" id="btnSuccess">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20,6 9,17 4,12"/>
+                                    </svg>
+                                    ثبت‌نام انجام شد!
+                                </span>
+                            </button>
+                        </form>
+
+                        <!-- Login Link -->
+                        <div class="signup-login-link">
+                            <p>قبلاً ثبت‌نام کرده‌اید؟
+                                <a href="#" class="login-link">وارد شوید</a>
+                            </p>
+                        </div>
+
+                        <!-- Success/Error Messages -->
+                        <div class="form-messages" id="formMessages"></div>
+                    </div>
+
+                    <!-- Signup Benefits Panel -->
+                    <div class="signup-benefits-panel">
+                        <div class="benefits-header">
+                            <h3 class="benefits-title">چرا Easy Trading؟</h3>
+                            <p class="benefits-subtitle">مزایای عضویت در پلتفرم ما</p>
+                        </div>
+
+                        <div class="benefits-list">
+                            <!-- Benefit 1 -->
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M3 3v18h18"/>
+                                        <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
+                                    </svg>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>ابزارهای حرفه‌ای</h4>
+                                    <p>دسترسی به پیشرفته‌ترین ابزارهای تحلیل بازار و ترید</p>
+                                </div>
+                            </div>
+
+                            <!-- Benefit 2 -->
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <polyline points="12,6 12,12 16,14"/>
+                                    </svg>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>پشتیبانی ۲۴/۷</h4>
+                                    <p>تیم پشتیبانی متخصص همیشه آماده کمک به شما</p>
+                                </div>
+                            </div>
+
+                            <!-- Benefit 3 -->
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                        <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
+                                        <line x1="12" y1="22.08" x2="12" y2="12"/>
+                                    </svg>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>امنیت بالا</h4>
+                                    <p>حفاظت کامل از اطلاعات و سرمایه شما با بالاترین استانداردهای امنیتی</p>
+                                </div>
+                            </div>
+
+                            <!-- Benefit 4 -->
+                            <div class="benefit-item">
+                                <div class="benefit-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="9" cy="7" r="4"/>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                    </svg>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>جامعه تریدرها</h4>
+                                    <p>عضویت در جامعه بزرگ تریدرهای حرفه‌ای و موفق</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section (Global shared component) -->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <!-- Top Section -->
+            <div class="footer-top">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <h2 class="footer-brand-name">Easy Trading</h2>
+                    <p class="footer-brand-tagline">Professional tools to increase accuracy, speed, and develop your trading strategy</p>
+                    <div class="footer-brand-divider"></div>
+                </div>
+
+                <!-- Links Columns -->
+                <div class="footer-links">
+                    <!-- Quick Links -->
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">لینک‌های سریع</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="index.html#tools" class="footer-link">ابزارها</a></li>
+                            <li><a href="index.html#pricing" class="footer-link">تعرفه‌ها</a></li>
+                            <li><a href="index.html#rules" class="footer-link">قوانین</a></li>
+                            <li><a href="contact.html" class="footer-link">ارتباط با ما</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">ابزارها</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="index.html#tools" class="footer-link">تجزیه و تحلیل پیشرفته</a></li>
+                            <li><a href="index.html#tools" class="footer-link">سیگنال‌های لحظه‌ای</a></li>
+                            <li><a href="index.html#tools" class="footer-link">مدیریت ریسک هوشمند</a></li>
+                            <li><a href="index.html#tools" class="footer-link">گزارش‌گیری خودکار</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Support -->
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">پشتیبانی</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="index.html#rules" class="footer-link">مرکز راهنمایی</a></li>
+                            <li><a href="index.html#rules" class="footer-link">سوالات متداول</a></li>
+                            <li><a href="contact.html" class="footer-link">تماس با پشتیبانی</a></li>
+                            <li><a href="index.html#rules" class="footer-link">آموزش‌های ویدئویی</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">ارتباط با ما</h3>
+                        <div class="footer-contact">
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span>info@easytrading.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                <span>+98 21 1234 5678</span>
+                            </div>
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span>تهران، ایران</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="footer-bottom">
+                <!-- Social Media -->
+                <div class="footer-social">
+                    <h3 class="footer-social-title">ما را دنبال کنید</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link instagram" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link linkedin" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link twitter" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link telegram" aria-label="Telegram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21.384,17.752l-2.319-0.578c-0.28-0.07-0.577,0.067-0.72,0.326c-0.143,0.259-0.188,0.573-0.122,0.869l0.468,2.09c0.04,0.181,0.129,0.346,0.257,0.478c0.128,0.132,0.29,0.217,0.464,0.245l2.319,0.578c0.28,0.07,0.577-0.067,0.72-0.326c0.143-0.259,0.188-0.573,0.122-0.869l-0.468-2.09c-0.04-0.181-0.129-0.346-0.257-0.478C21.72,17.865,21.558,17.78,21.384,17.752z"/>
+                                <path d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M16.64,8.41l-2.13,9.84c-0.09,0.42-0.55,0.66-0.97,0.57l-2.69-0.67c-0.42-0.1-0.66-0.55-0.57-0.97l0.67-2.69c0.09-0.42,0.55-0.66,0.97-0.57l1.91,0.48l-1.91-4.41l5.71,1.42C17.55,11.9,17.19,8.41,16.64,8.41z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Easy Trading. All Rights Reserved.</p>
+                    <div class="footer-legal">
+                        <a href="#" class="footer-legal-link">Privacy Policy</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-legal-link">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="signup.js"></script>
+</body>
+</html>
